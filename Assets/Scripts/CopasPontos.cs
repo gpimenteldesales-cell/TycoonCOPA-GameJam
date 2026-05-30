@@ -7,7 +7,9 @@ public class CopasPontos : MonoBehaviour
 
     [Header("UI do Jogo")]
     [SerializeField] private TextMeshProUGUI textoPontos; 
-    [SerializeField] private string prefixoTexto = "Pontos: "; 
+    [SerializeField] private string prefixoTexto = "Pontos: ";
+    [SerializeField] private TextMeshProUGUI refTextoMadeira;
+    [SerializeField] public int quantMadeiras;
 
     [Header("Pontuação")]
     [SerializeField] private int pontosAtuais = 0; // Deixei visível no Inspector para você acompanhar
@@ -33,6 +35,7 @@ public class CopasPontos : MonoBehaviour
     public void AdicionarPontos(int quantidade)
     {
         pontosAtuais += quantidade;
+      
         Debug.LogWarning("GameManager recebeu os pontos! Total atual: " + pontosAtuais);
         AtualizarInterface();
     }
@@ -47,5 +50,10 @@ public class CopasPontos : MonoBehaviour
         {
             Debug.LogError("ERRO: O campo 'Texto Pontos' está vazio no Inspector do GameManager!");
         }
+    }
+
+    public int addPontos(int pontos)
+    {
+        return pontosAtuais + pontos;
     }
 }

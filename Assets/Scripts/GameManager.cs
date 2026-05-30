@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Pontuação")]
     [SerializeField] private int pontosAtuais = 0; // Deixei visível no Inspector para você acompanhar
+    public CopasPontos copasPontos;
 
     private void Awake()
     {
@@ -35,6 +36,11 @@ public class GameManager : MonoBehaviour
         pontosAtuais += quantidade;
         Debug.LogWarning("GameManager recebeu os pontos! Total atual: " + pontosAtuais);
         AtualizarInterface();
+
+        if (pontosAtuais >= 100)
+        {
+            copasPontos.addPontos(10);
+        }
     }
 
     private void AtualizarInterface()
