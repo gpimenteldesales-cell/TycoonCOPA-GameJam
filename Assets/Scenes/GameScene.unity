@@ -577,7 +577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &139731057
 SpriteRenderer:
   serializedVersion: 2
@@ -1499,7 +1499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &335478596
 SpriteRenderer:
   serializedVersion: 2
@@ -1726,6 +1726,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339135650}
   m_CullTransparentMesh: 1
+--- !u!1 &441904460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 441904461}
+  - component: {fileID: 441904463}
+  - component: {fileID: 441904462}
+  m_Layer: 5
+  m_Name: SupremumAxe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &441904461
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441904460}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1007753877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 165, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &441904462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441904460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 0ba92164a5b3bd1468e2f45c630c26d5, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &441904463
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441904460}
+  m_CullTransparentMesh: 1
 --- !u!1 &458681938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1774,7 +1846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &458681941
 SpriteRenderer:
   serializedVersion: 2
@@ -2019,7 +2091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &499069392
 SpriteRenderer:
   serializedVersion: 2
@@ -2173,7 +2245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &504046969
 SpriteRenderer:
   serializedVersion: 2
@@ -2418,7 +2490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &572316197
 SpriteRenderer:
   serializedVersion: 2
@@ -2945,7 +3017,6 @@ GameObject:
   - component: {fileID: 725295433}
   - component: {fileID: 725295436}
   - component: {fileID: 725295435}
-  - component: {fileID: 725295437}
   m_Layer: 5
   m_Name: Copas_Texto
   m_TagString: Untagged
@@ -3072,23 +3143,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725295432}
   m_CullTransparentMesh: 1
---- !u!114 &725295437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725295432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ec6a9b61002b04981118444112a243, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CopasPontos
-  textoPontos: {fileID: 725295435}
-  prefixoTexto: 'Copas:'
-  refTextoCopas: {fileID: 0}
-  quantMadeiras: 0
-  pontosAtuais: 0
 --- !u!1 &761490931
 GameObject:
   m_ObjectHideFlags: 0
@@ -3378,7 +3432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!61 &786872557
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3473,7 +3527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &822034109
 SpriteRenderer:
   serializedVersion: 2
@@ -3627,7 +3681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &876684615
 SpriteRenderer:
   serializedVersion: 2
@@ -3868,6 +3922,78 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &912253962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912253963}
+  - component: {fileID: 912253965}
+  - component: {fileID: 912253964}
+  m_Layer: 5
+  m_Name: BasicAxe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &912253963
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912253962}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1007753877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -325, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &912253964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912253962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 1c3b0e4b3da31614da79049e48407a05, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &912253965
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912253962}
+  m_CullTransparentMesh: 1
 --- !u!1 &918661903
 GameObject:
   m_ObjectHideFlags: 0
@@ -3916,7 +4042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &918661906
 SpriteRenderer:
   serializedVersion: 2
@@ -4204,6 +4330,78 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &972922966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 972922967}
+  - component: {fileID: 972922969}
+  - component: {fileID: 972922968}
+  m_Layer: 5
+  m_Name: HardYellowAxe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &972922967
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972922966}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1007753877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &972922968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972922966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 9a26f96d5d724734e9f6cde15cbd146e, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &972922969
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972922966}
+  m_CullTransparentMesh: 1
 --- !u!1 &983051315
 GameObject:
   m_ObjectHideFlags: 0
@@ -4252,7 +4450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &983051318
 SpriteRenderer:
   serializedVersion: 2
@@ -4449,6 +4647,82 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1007753876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1007753877}
+  - component: {fileID: 1007753879}
+  - component: {fileID: 1007753878}
+  m_Layer: 5
+  m_Name: "Invent\xE1rio"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1007753877
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007753876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 912253963}
+  - {fileID: 1428199609}
+  - {fileID: 972922967}
+  - {fileID: 441904461}
+  m_Father: {fileID: 1885879288}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -445}
+  m_SizeDelta: {x: 802.4904, y: 134.2931}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1007753878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007753876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: fcf1d04c8808ea846a3f6a4bc18e75b1, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1007753879
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007753876}
+  m_CullTransparentMesh: 1
 --- !u!1 &1012427309
 GameObject:
   m_ObjectHideFlags: 0
@@ -5459,7 +5733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &1271823971
 SpriteRenderer:
   serializedVersion: 2
@@ -6044,7 +6318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!61 &1394890387
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6218,7 +6492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &1419988370
 SpriteRenderer:
   serializedVersion: 2
@@ -6324,6 +6598,78 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.32, y: 0.35}
   m_EdgeRadius: 0
+--- !u!1 &1428199608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1428199609}
+  - component: {fileID: 1428199611}
+  - component: {fileID: 1428199610}
+  m_Layer: 5
+  m_Name: MediumAxe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1428199609
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428199608}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1007753877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -160, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1428199610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428199608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: e58ee1b8d1766d54cb986f002612ff1b, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1428199611
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428199608}
+  m_CullTransparentMesh: 1
 --- !u!1 &1475867223
 GameObject:
   m_ObjectHideFlags: 0
@@ -6372,7 +6718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &1475867226
 SpriteRenderer:
   serializedVersion: 2
@@ -6708,7 +7054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &1593366745
 SpriteRenderer:
   serializedVersion: 2
@@ -7520,11 +7866,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1757790985}
-  - component: {fileID: 1757790989}
-  - component: {fileID: 1757790988}
   - component: {fileID: 1757790987}
   - component: {fileID: 1757790986}
   - component: {fileID: 1757790990}
+  - component: {fileID: 1757790992}
+  - component: {fileID: 1757790991}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -7621,31 +7967,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.3959871, y: 0.8870768}
   m_EdgeRadius: 0
---- !u!114 &1757790988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757790983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75331a5dc25acc14fb70bcef8d8edec2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerColisao
---- !u!114 &1757790989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757790983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdd0df9c8ac05144cbaa8d119721e81e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MovementPlayer
-  speed: 4
 --- !u!212 &1757790990
 SpriteRenderer:
   serializedVersion: 2
@@ -7705,6 +8026,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1757790991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757790983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75331a5dc25acc14fb70bcef8d8edec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerColisao
+--- !u!114 &1757790992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757790983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd0df9c8ac05144cbaa8d119721e81e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovementPlayer
+  speed: 3
 --- !u!1 &1782899343
 GameObject:
   m_ObjectHideFlags: 0
@@ -7753,7 +8099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &1782899346
 SpriteRenderer:
   serializedVersion: 2
@@ -7907,7 +8253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &1810900026
 SpriteRenderer:
   serializedVersion: 2
@@ -8061,7 +8407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &1814434584
 SpriteRenderer:
   serializedVersion: 2
@@ -8391,7 +8737,7 @@ GameObject:
   - component: {fileID: 1852933785}
   - component: {fileID: 1852933784}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: FundoTexto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8590,7 +8936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &1870728650
 SpriteRenderer:
   serializedVersion: 2
@@ -8841,6 +9187,7 @@ RectTransform:
   - {fileID: 2026098919}
   - {fileID: 725295433}
   - {fileID: 322583799}
+  - {fileID: 1007753877}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9229,7 +9576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &1928366376
 SpriteRenderer:
   serializedVersion: 2
@@ -9383,7 +9730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &1935043814
 SpriteRenderer:
   serializedVersion: 2
@@ -9537,7 +9884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &1949328990
 SpriteRenderer:
   serializedVersion: 2
@@ -10222,7 +10569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &2053004838
 SpriteRenderer:
   serializedVersion: 2
@@ -10467,7 +10814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
   tempoParaCortar: 5
   tempoParaRessurgir: 20
-  pontosPorArvore: 3
+  pontosPorArvore: 6
 --- !u!212 &2122243026
 SpriteRenderer:
   serializedVersion: 2
@@ -10585,6 +10932,7 @@ GameObject:
   - component: {fileID: 2124097023}
   - component: {fileID: 2124097022}
   - component: {fileID: 2124097021}
+  - component: {fileID: 2124097025}
   m_Layer: 0
   m_Name: Shop
   m_TagString: Untagged
@@ -10725,6 +11073,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2124097025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124097020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e5805bf11cce24ab7193c86e499a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptShop
+  shopUI: {fileID: 0}
 --- !u!1 &2142450831
 GameObject:
   m_ObjectHideFlags: 0
