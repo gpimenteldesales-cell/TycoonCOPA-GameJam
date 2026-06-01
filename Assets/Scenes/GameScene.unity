@@ -716,7 +716,7 @@ MonoBehaviour:
   copasTexto: {fileID: 725295435}
   madeiras: 0
   copas: 0
-  proximaMeta: 5
+  proximaMeta: 30
 --- !u!4 &162643482
 Transform:
   m_ObjectHideFlags: 0
@@ -3758,7 +3758,7 @@ Transform:
   m_GameObject: {fileID: 883316826}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.91, y: -3.03, z: -0.49}
+  m_LocalPosition: {x: 12.91, y: -3.03, z: -0.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5828,7 +5828,7 @@ Transform:
   m_GameObject: {fileID: 1377114476}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.11, y: -5.06, z: -0.33}
+  m_LocalPosition: {x: 16.11, y: -5.06, z: -0.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7541,7 +7541,7 @@ Transform:
   m_GameObject: {fileID: 1757790983}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 1.04, z: 0}
+  m_LocalPosition: {x: 0.35, y: 1.04, z: -0.26}
   m_LocalScale: {x: 1.7507612, y: 1.709414, z: 0.3938}
   m_ConstrainProportionsScale: 0
   m_Children:
