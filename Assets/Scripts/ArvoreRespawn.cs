@@ -39,7 +39,7 @@ public class ArvoreRespawn : MonoBehaviour
 
         if (GameManager.Instance != null)
         {
-            GameManager.Instance.AdicionarPontos(pontosPorArvore);
+            GameManager.Instance.AdicionarMadeira(pontosPorArvore);
         }
 
         if (spriteRenderer != null) spriteRenderer.enabled = false;

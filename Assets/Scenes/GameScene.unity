@@ -119,107 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &54017071
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 54017075}
-  - component: {fileID: 54017074}
-  - component: {fileID: 54017073}
-  - component: {fileID: 54017072}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &54017072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54017071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &54017073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54017071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &54017074
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54017071}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &54017075
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54017071}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1 &74415897
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,8 +575,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &139731057
 SpriteRenderer:
@@ -784,6 +683,55 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.31}
   m_EdgeRadius: 0
+--- !u!1 &162643480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 162643482}
+  - component: {fileID: 162643481}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &162643481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162643480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4dd82faf3768ea4c809990ec943987c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  madeiraTexto: {fileID: 322583801}
+  copasTexto: {fileID: 725295435}
+  madeiras: 0
+  copas: 0
+  proximaMeta: 5
+--- !u!4 &162643482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162643480}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 787.1664, y: 827.3057, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &177842061
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,7 +1325,6 @@ GameObject:
   - component: {fileID: 322583799}
   - component: {fileID: 322583802}
   - component: {fileID: 322583801}
-  - component: {fileID: 322583803}
   m_Layer: 5
   m_Name: Madeira_Texto
   m_TagString: Untagged
@@ -1504,22 +1451,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322583798}
   m_CullTransparentMesh: 1
---- !u!114 &322583803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322583798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4dd82faf3768ea4c809990ec943987c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  textoPontos: {fileID: 322583801}
-  prefixoTexto: 'Madeiras:'
-  pontosAtuais: 0
-  copasPontos: {fileID: 725295437}
 --- !u!1 &335478593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,8 +1497,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &335478596
 SpriteRenderer:
@@ -1841,8 +1772,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &458681941
 SpriteRenderer:
@@ -2086,8 +2017,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &499069392
 SpriteRenderer:
@@ -2240,8 +2171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &504046969
 SpriteRenderer:
@@ -2485,8 +2416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &572316197
 SpriteRenderer:
@@ -3445,8 +3376,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!61 &786872557
 BoxCollider2D:
@@ -3540,8 +3471,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &822034109
 SpriteRenderer:
@@ -3694,8 +3625,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &876684615
 SpriteRenderer:
@@ -3983,8 +3914,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &918661906
 SpriteRenderer:
@@ -4319,8 +4250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &983051318
 SpriteRenderer:
@@ -5526,8 +5457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &1271823971
 SpriteRenderer:
@@ -6111,8 +6042,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!61 &1394890387
 BoxCollider2D:
@@ -6285,8 +6216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &1419988370
 SpriteRenderer:
@@ -6439,8 +6370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &1475867226
 SpriteRenderer:
@@ -6775,8 +6706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &1593366745
 SpriteRenderer:
@@ -7820,8 +7751,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &1782899346
 SpriteRenderer:
@@ -7974,8 +7905,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &1810900026
 SpriteRenderer:
@@ -8128,8 +8059,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &1814434584
 SpriteRenderer:
@@ -8657,8 +8588,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &1870728650
 SpriteRenderer:
@@ -9296,8 +9227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &1928366376
 SpriteRenderer:
@@ -9450,8 +9381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &1935043814
 SpriteRenderer:
@@ -9604,8 +9535,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &1949328990
 SpriteRenderer:
@@ -10289,8 +10220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &2053004838
 SpriteRenderer:
@@ -10534,8 +10465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 1
-  tempoParaRessurgir: 10
+  tempoParaCortar: 5
+  tempoParaRessurgir: 20
   pontosPorArvore: 3
 --- !u!212 &2122243026
 SpriteRenderer:
@@ -10899,4 +10830,4 @@ SceneRoots:
   - {fileID: 1230834499}
   - {fileID: 1885879288}
   - {fileID: 1396264134}
-  - {fileID: 54017075}
+  - {fileID: 162643482}

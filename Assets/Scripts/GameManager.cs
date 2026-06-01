@@ -3,22 +3,23 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; }
+    public static GameManager Instance;
 
-    [Header("UI do Jogo")]
-    [SerializeField] private TextMeshProUGUI textoPontos; 
-    [SerializeField] private string prefixoTexto = "Pontos: "; 
+    [Header("UI")]
+    public TextMeshProUGUI madeiraTexto;
+    public TextMeshProUGUI copasTexto;
 
-    [Header("Pontuação")]
-    [SerializeField] private int pontosAtuais = 0; // Deixei visível no Inspector para você acompanhar
-    public CopasPontos copasPontos;
+    [Header("Valores")]
+    public int madeiras = 0;
+    public int copas = 0;
+
+    [SerializeField]private int proximaMeta = 30;
 
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Garante que o GameManager não suma
         }
         else
         {
@@ -28,30 +29,28 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        AtualizarInterface();
+        AtualizarUI();
     }
 
-    public void AdicionarPontos(int quantidade)
+    public void AdicionarMadeira(int quantidade)
     {
-        pontosAtuais += quantidade;
-        Debug.LogWarning("GameManager recebeu os pontos! Total atual: " + pontosAtuais);
-        AtualizarInterface();
+        madeiras += quantidade;
 
-        if (pontosAtuais >= 100)
+        while (madeiras >= proximaMeta)
         {
-            copasPontos.addPontos(10);
+            copas += 10;
+            proximaMeta += 30;
         }
+
+        AtualizarUI();
+
+        Debug.Log("Madeiras: " + madeiras);
+        Debug.Log("Copas: " + copas);
     }
 
-    private void AtualizarInterface()
+    void AtualizarUI()
     {
-        if (textoPontos != null)
-        {
-            textoPontos.text = prefixoTexto + pontosAtuais.ToString();
-        }
-        else
-        {
-            Debug.LogError("ERRO: O campo 'Texto Pontos' está vazio no Inspector do GameManager!");
-        }
+        madeiraTexto.text = "Madeiras: " + madeiras;
+        copasTexto.text = "Copas: " + copas;
     }
 }
