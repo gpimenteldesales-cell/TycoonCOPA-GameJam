@@ -8,18 +8,18 @@ public class CopasPontos : MonoBehaviour
     [Header("UI do Jogo")]
     [SerializeField] private TextMeshProUGUI textoPontos; 
     [SerializeField] private string prefixoTexto = "Pontos: ";
-    [SerializeField] private TextMeshProUGUI refTextoMadeira;
+    [SerializeField] private TextMeshProUGUI refTextoCopas;
     [SerializeField] public int quantMadeiras;
 
     [Header("Pontuação")]
-    [SerializeField] private int pontosAtuais = 0; // Deixei visível no Inspector para você acompanhar
+    [SerializeField] private int pontosAtuais = 0; 
 
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Garante que o GameManager não suma
+            DontDestroyOnLoad(gameObject); 
         }
         else
         {
