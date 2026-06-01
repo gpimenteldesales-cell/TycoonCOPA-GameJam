@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6c908f92ed42e0948888b3adbc8daa4f
+guid: 470c66a675ed19d45a077b63517dacb5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4458814861355219803
-    second: FLORESTA VERDE_0
+      213: -7501778473976659587
+    second: Personagem_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FLORESTA VERDE_0
+      name: Personagem_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 192
-        height: 192
+        x: 74
+        y: 8
+        width: 59
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a480b5e18b1f12c0800000000000000
-      internalID: -4458814861355219803
+      spriteID: d7103fa593454e790800000000000000
+      internalID: -7501778473976659587
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FLORESTA VERDE_0: -4458814861355219803
+      Personagem_0: -7501778473976659587
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
