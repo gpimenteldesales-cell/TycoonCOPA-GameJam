@@ -1687,7 +1687,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 339135653}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 606248111}
+        m_TargetAssemblyTypeName: ScriptShop, Assembly-CSharp
+        m_MethodName: MediumAxe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &339135653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2596,6 +2608,78 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.32, y: 0.35}
   m_EdgeRadius: 0
+--- !u!1 &606248110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 606248112}
+  - component: {fileID: 606248111}
+  m_Layer: 0
+  m_Name: shopManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &606248111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606248110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e5805bf11cce24ab7193c86e499a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptShop
+  shopUI: {fileID: 2026098918}
+  arvoreRespawn:
+  - {fileID: 786872556}
+  - {fileID: 2053004837}
+  - {fileID: 504046968}
+  - {fileID: 1949328989}
+  - {fileID: 876684614}
+  - {fileID: 499069391}
+  - {fileID: 1810900025}
+  - {fileID: 1935043813}
+  - {fileID: 139731056}
+  - {fileID: 1928366375}
+  - {fileID: 1593366744}
+  - {fileID: 983051317}
+  - {fileID: 1394890386}
+  - {fileID: 458681940}
+  - {fileID: 335478595}
+  - {fileID: 1475867225}
+  - {fileID: 822034108}
+  - {fileID: 2122243025}
+  - {fileID: 572316196}
+  - {fileID: 1870728649}
+  - {fileID: 1419988369}
+  - {fileID: 1814434583}
+  - {fileID: 1782899345}
+  - {fileID: 918661905}
+  - {fileID: 1271823970}
+  gameManager: {fileID: 162643481}
+--- !u!4 &606248112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606248110}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1253.2336, y: 763.76154, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &627269725
 GameObject:
   m_ObjectHideFlags: 0
@@ -3679,7 +3763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f234d9fa359d524bb242e81dbda6b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreRespawn
-  tempoParaCortar: 5
+  tempoParaCortar: 4
   tempoParaRessurgir: 20
   pontosPorArvore: 6
 --- !u!212 &876684615
@@ -8686,7 +8770,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1845972038}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 606248111}
+        m_TargetAssemblyTypeName: ScriptShop, Assembly-CSharp
+        m_MethodName: YellowAxe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1845972038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9277,7 +9373,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1889542361}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 606248111}
+        m_TargetAssemblyTypeName: ScriptShop, Assembly-CSharp
+        m_MethodName: SupremumAxe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1889542361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9489,7 +9597,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1901217257}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 606248111}
+        m_TargetAssemblyTypeName: ScriptShop, Assembly-CSharp
+        m_MethodName: BasicAxe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1901217257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10953,6 +11073,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScriptShop
   shopUI: {fileID: 2026098918}
+  arvoreRespawn: []
+  gameManager: {fileID: 0}
 --- !u!61 &2124097022
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11086,6 +11208,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScriptShop
   shopUI: {fileID: 0}
+  arvoreRespawn: []
+  gameManager: {fileID: 0}
 --- !u!1 &2142450831
 GameObject:
   m_ObjectHideFlags: 0
@@ -11192,3 +11316,4 @@ SceneRoots:
   - {fileID: 1885879288}
   - {fileID: 1396264134}
   - {fileID: 162643482}
+  - {fileID: 606248112}

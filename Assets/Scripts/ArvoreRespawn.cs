@@ -4,8 +4,8 @@ using UnityEngine;
 public class ArvoreRespawn : MonoBehaviour
 {
     [Header("Configurações de Tempo")]
-    [SerializeField] private float tempoParaCortar = 3f;
-    [SerializeField] private float tempoParaRessurgir = 4f;
+    [SerializeField] public float tempoParaCortar = 5f;
+    [SerializeField] private float tempoParaRessurgir = 20f;
     
     [Header("Configurações de Recompensa")]
     [SerializeField] private int pontosPorArvore = 3;
