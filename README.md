@@ -1,2 +1,2 @@
 # TycoonCOPA-GameJam
-GameJam 2026
+GameJam 2026 (3 days"
